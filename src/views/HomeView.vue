@@ -1,7 +1,13 @@
+<script setup>
+import Hero from '../components/home/Hero.vue'
+import Projects from '../components/home/Projects/Projects.vue'
+</script>
+
 <template>
   <main class="page">
-    <h1>Home</h1>
-    <p>Welcome to your new site.</p>
+    <Hero />
+
+    <Projects />
   </main>
 </template>
 
