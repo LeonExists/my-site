@@ -1,6 +1,6 @@
-# Vue + Bun Site Template
+# my-site
 
-A minimal, ready-to-clone template for building multi-page sites with Vue 3, Vue Router, and Bun. Deploys automatically to GitHub Pages on every push to `main`.
+My personal site, built with Vue 3, Vue Router, and Bun. Deployed automatically to GitHub Pages on every push to `main`.
 
 ## Project structure
 
@@ -14,8 +14,6 @@ src/
 ├── App.vue          # Root component — mounts layout + <RouterView>
 └── main.js          # App entry point
 ```
-
-Add new pages by creating a file in `views/` and registering it in `router/index.js`.
 
 ## Setup
 
@@ -38,10 +36,6 @@ bun run build
 ## Deploy
 
 Pushing to `main` automatically builds and deploys to GitHub Pages via GitHub Actions.
-
-> **First-time setup:** Go to your repo **Settings → Pages** and set **Source** to **GitHub Actions**.
->
-> **Repo name:** If your GitHub repo is not named `my-site`, update the `base` field in `vite.config.js` to match — e.g. `base: '/your-repo-name/'`.
 
 ## Tech
 
